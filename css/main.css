@@ -1,0 +1,40 @@
+.section {
+    background: #333;
+    color: #fff;
+    text-align: center;
+}
+
+.section:nth-child(even){
+    background: tomato;
+    color: #fff;
+    text-align: center;
+}
+
+.gnb {
+    position: fixed;
+    inset: 50% 50px auto auto;
+    z-index: 999;
+    color: #fff;
+}
+
+.gnb li.on {
+    color: #ff0;
+    transition: 1s;
+}
+
+.section h3 {
+    font-size: 10px;
+}
+
+.section.on h3 {
+    font-size: 100px;
+    transition: 1s 1s;
+}
+
+.title {
+    position: fixed;
+    inset: 50px auto auto 50px;
+    z-index: 999;
+
+    color: #fff;
+}
